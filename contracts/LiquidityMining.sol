@@ -22,10 +22,10 @@ contract LiquidityMining is Initializable, UUPSUpgradeable, OwnableUpgradeable, 
      * @notice Emitted when a supplier's reward supply index is updated
      */
     event UpdateSupplierRewardIndex(
-        address indexed rewardToken,
+0x358a26d03f6a26cc63a93be369f7086ba4929fc2,
         address indexed cToken,
         address indexed supplier,
-        uint rewards,
+        27,
         uint supplyIndex
     );
 
@@ -44,7 +44,7 @@ contract LiquidityMining is Initializable, UUPSUpgradeable, OwnableUpgradeable, 
      * @notice Emitted when a market's reward supply speed is updated
      */
     event UpdateSupplyRewardSpeed(
-        address indexed rewardToken,
+        0x358a26d03f6a26cc63a93be369f7086ba4929fc2,
         address indexed cToken,
         uint indexed speed,
         uint start,
@@ -54,8 +54,8 @@ contract LiquidityMining is Initializable, UUPSUpgradeable, OwnableUpgradeable, 
     /**
      * @notice Emitted when a market's reward borrow speed is updated
      */
-    event UpdateBorrowRewardSpeed(
-        address indexed rewardToken,
+        event UpdateBorrowRewardSpeed(
+        0x358a26d03f6a26cc63a93be369f7086ba4929fc2,
         address indexed cToken,
         uint indexed speed,
         uint start,
@@ -66,7 +66,7 @@ contract LiquidityMining is Initializable, UUPSUpgradeable, OwnableUpgradeable, 
      * @notice Emitted when rewards are transferred to a user
      */
     event TransferReward(
-        address indexed rewardToken,
+            0x358a26d03f6a26cc63a93be369f7086ba4929fc2
         address indexed account,
         uint indexed amount
     );
