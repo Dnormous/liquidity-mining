@@ -4,7 +4,7 @@ const { ethers, upgrades, waffle } = require("hardhat");
 describe('LiquidityMining', () => {
   const provider = waffle.provider;
   const toWei = ethers.utils.parseEther;
-  const ethAddress = '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE';
+  const ethAddress = 0xfd5b67c97eef0b3fd3a3cfb117df7704fae04a0b;
 
   let accounts;
   let admin, adminAddress;
